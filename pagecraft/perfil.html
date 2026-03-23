@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfil - Pagecraft</title>
+
+<link rel="stylesheet" href="pagecraft.css">
+
+<style>
+
+.perfilCard{
+    background:#12161c;
+    padding:120px;
+    border-radius:15px;
+    border:1px solid rgba(0,255,150,0.3);
+    text-align:center;
+}
+
+
+.perfil-img{
+    border-radius:50%;
+    border:2px solid #00ff88;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header style="display:flex; align-items:center; justify-content:space-between; padding:20px;">
+
+    
+
+    <h2><a href="pagecraft.html">homepage</a>  pagecraft</h2>
+    <nav>
+        <div class="pesquisa">
+            <input type="search" placeholder="Buscar Produto, Gibis, Marcas">
+        </div>
+    </nav>
+
+    <div class="Perfill">
+        <a href="perfil.html">
+            <img src="img/usuario.png" height="60">
+        </a>
+    </div>
+
+</header>
+
+
+<div class="Perfil" >
+
+    <div class="perfilCard" >
+        <img src="img/usuario.png" height="80" width="80" class="perfil-img">
+
+        <div class="topico">Nome:</div>
+        <div id="nome">lil tooth</div>
+
+        <div class="topico">
+            Cargo: </div> <div id="nome">Cliente comum 🚀</div>
+       
+
+        <button class="edit-btn">Editar Perfil</button> 
+        <button class="config-btn" onclick="abrirConfig()">⚙️ Configurações</button>
+    </div>
+
+
+
+</div>
+</div>
+<div id="configMenu" class="config-menu">
+
+    <h3>Configurações</h3>
+
+    <button>Alterar cor de fonte</button>
+    <button>Alterar fonte</button>
+    <button>Alterar Neon</button>
+    <button style="color:red;">Sair</button>
+
+    <span class="fechar" onclick="fecharConfig()">✖</span>
+
+</div>
+<section class="section">
+    <h2>Meus favoritos❤</h2>
+
+    <div class="gridperfil">
+
+        <div class="card">
+            <img src="img/mouse.jpeg">
+            <h3>Mouse Gamer RGB</h3>
+            <div class="price">R$ 149,90</div>
+        </div>
+
+        <div class="card">
+            <img src="img/teclado.jpeg">
+            <h3>Teclado Mecânico</h3>
+            <div class="price">R$ 399,90</div>
+        </div>
+
+    </div>
+</section>
+<script src="script.js">
+
+</script>
+<footer>
+© 2026 Pagecraft
+</footer>
