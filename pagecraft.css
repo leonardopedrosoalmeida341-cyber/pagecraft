@@ -5,22 +5,7 @@
     box-sizing:border-box;
     font-family:'Orbitron', sans-serif;
 }
-#modoclaro{
-    display: none;
-     
-}
-#modoclaro:active{
-    transform: scale(0.9);
-}
 
-#modoclaro:checked ~ .conteudo {
-  --bg-color: #ffffff;
-  --text-color: #000000;
-  --btn-bg: #000000;
-  --btn-text: #bebebe;
-
-  
-}
 body{
     background: radial-gradient(circle at top, rgb(15, 32, 39), #0b0f14);
     color:white;
